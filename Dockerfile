@@ -1,6 +1,6 @@
 FROM ubuntu 
 MAINTAINER rahul <user@domain.tld> 
 RUN apt-get update && apt-get install -y apache2
-RUN echo “Hello Rahul Apache server on Ubuntu Docker” > /var/www/html/index.html 
+RUN echo “Hello Rahul Gupta Apache server on Ubuntu Docker” > /var/www/html/index.html 
 EXPOSE 80 
 CMD /usr/sbin/apache2ctl -D FOREGROUND
